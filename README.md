@@ -9,3 +9,7 @@ Simple internal bunnyhop with a lot of hardcoded stuff for L4D2.
 - Tickbase manipulation (ACKSUALLY, should not work since speedhack is working, but i still implemented for some reason)
 - AirStuck (commented)
 - Some few reversed classes and interfaces
+- Injector
+
+# Why?
+Because i want to remove source from my pc, but dont want to store source on flash drive
