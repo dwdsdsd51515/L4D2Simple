@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="vfunc_hook.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_crc.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="interfaces.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="i_base_client_dll.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooked_createmove.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="c_usercmd.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vfunc_hook.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="c_input.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum_crc.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_entity.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="c_base_player.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="iv_engine_client.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="i_entity_list.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="hooked_writeusercmddeltatobuffer.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="c_client_state.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{3b9ed2ce-e8b9-40e7-a884-5360925d7d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{4158978f-751c-4c83-9938-788998f82509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{9d2b677b-120c-4852-96c7-5301a078a751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{9ebdf8f6-ba52-4946-9af8-eae9c8eedc75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
